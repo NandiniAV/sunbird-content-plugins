@@ -8,7 +8,7 @@ var checkListConfigurations = {
                 "checkList": [
                     "Has Hate speech, Abuse, Violence, Profanity",
                     "Has Sexual content, Nudity or Vulgarity",
-                    "Has Discriminatory or Defamatory content",
+                    "Has Discrimination or Defamation content",
                     "Is not suitable for children"
                 ]
             },
@@ -17,20 +17,21 @@ var checkListConfigurations = {
                 "index": 2,
                 "checkList": [
                     "Inappropriate Title or Description",
-                    "Incorrect Board, Grade, Subject or Medium",
-                    "Inappropriate tags such as Resource Type or Concepts",
-                    "Irrelevant Keywords"
+                    // "Incorrect Board, Grade, Subject or Medium",
+                    // "Inappropriate tags such as Resource Type or Concepts",
+                    "Inappropriate tags such as Water Resource Type, Proficiency and Topic",
+                    "Irrelevant Keywords and Language"
                 ]
             },
             {
                 "name": "Usability",
                 "index": 3,
                 "checkList": [
-                    "Content is NOT playing correctly ",
-                    "CANNOT see the content clearly on Desktop and App",
-                    "Audio is NOT clear or NOT easy to understand",
-                    "Spelling mistakes found in text used",
-                    "Language is NOT simple to understand"
+                    "Content does not play correctly ",
+                    "Cannot see the content clearly on Desktop",
+                    "Audio (if any) is unclear and difficult to understand",
+                    "Spelling mistakes in the text",
+                    "Language is not simple to understand"
                 ]
             }
         ],
@@ -61,9 +62,10 @@ var checkListConfigurations = {
                 "index": 2,
                 "checkList": [
                     "Appropriate Title, Description",
-                    "Correct Board, Grade, Subject, Medium",
-                    "Appropriate tags such as Resource Type, Concepts",
-                    "Relevant Keywords"
+                    // "Correct Board, Grade, Subject, Medium",
+                    // "Appropriate tags such as Resource Type, Concepts",
+                    "Appropriate tags such as Water Resource Type, Proficiency and Topic",
+                    "Relevant Keywords and Language"
                 ]
             },
             {
@@ -71,7 +73,7 @@ var checkListConfigurations = {
                 "index": 3,
                 "checkList": [
                     "Content plays correctly",
-                    "Can see the content clearly on Desktop and App",
+                    "Can see the content clearly on Desktop",
                     "Audio (if any) is clear and easy to understand",
                     "No Spelling mistakes in the text",
                     "Language is simple to understand"
